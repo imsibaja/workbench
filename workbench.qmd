@@ -2,10 +2,12 @@
 title: "workbench"
 ---
 
-## Quarto
-
-Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see <https://quarto.org>.
 
 ```{r}
-1 + 1
+library(tidyverse)
+
+data<- read.csv("/courses/EDS221/example/data.csv")
+
+head(data)
 ```
+
